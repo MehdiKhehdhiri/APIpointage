@@ -21,5 +21,5 @@ const checkinSchema = new mongoose.Schema({
 
 const CheckIn = mongoose.model("CheckIn", checkinSchema);
 
-module.exports = CheckIn;
+export default CheckIn;
 

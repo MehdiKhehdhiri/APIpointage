@@ -1,12 +1,38 @@
-API de pointage
+# *API DE POINTAGE*
 
-Description
-    
+*an api that manages the checkin/out and creation of new employees* 
 
-Test Cases
+### Dependencies
+body-parser
+chai-http
+cors 
+express
+mockgoose
+moment
+mongoose
+request
+supertest
+chai 
+mocha
+nodemon 
+### Getting started
 
-1 when a non existing user checks in/out send a user not found message
+Put your mongodb connection uri in line 7 of /src/index.js
 
-2 when user check out without checking in first send error message
+## Usage
 
-3 when user check in multiple time in the same day with checking out send error message
+To checkin:
+ Send a post request to /pointage/checkin
+ {
+    "employee_id": "String",
+    "checkIn": "Date",
+    "comment":"String"
+    }
+
+## Demo
+
+*Grab a simple block of code that makes use of your project/tool and paste it here.*
+
+## Team
+
+* Mehdi Khedhiri

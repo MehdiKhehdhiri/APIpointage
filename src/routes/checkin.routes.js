@@ -1,6 +1,6 @@
 import { Router } from "express";
-import * as checkInCtrl from "../controllers/checkin/checkin"
-import * as checkoutCtrl from "../controllers/checkin/checkout"
+import * as checkInCtrl from "../controllers/checkin/checkin.js"
+import * as checkoutCtrl from "../controllers/checkin/checkout.js"
 
 const routes = new Router();
 

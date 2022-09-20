@@ -1,6 +1,6 @@
 import {Router} from "express";
-import employeeRoutes from "./employee.routes"
-import checkinRoutes from "./checkin.routes"
+import employeeRoutes from "./employee.routes.js"
+import checkinRoutes from "./checkin.routes.js"
 
 const routes = new Router();
 

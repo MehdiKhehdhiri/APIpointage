@@ -1,4 +1,4 @@
-import Employee from "../../models/employee.model";
+import Employee from "../../models/employee.model.js";
 import moment from "moment";
 
 export async function getListEmployees(req, res) {

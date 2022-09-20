@@ -1,4 +1,4 @@
-import Employee from "../../models/employee.model";
+import Employee from "../../models/employee.model.js";
 import mongoose from "mongoose";
 import moment from "moment";
 
